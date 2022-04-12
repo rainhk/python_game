@@ -43,6 +43,8 @@ for z in range(20):
         wall_3 = Wall(position=(z, y, -0.5), rotation_y=-180)
         wall_4 = Wall(position=(19.5, y, z), rotation_y=90)
 
+# testing pycharm commit
+
 player = FirstPersonController()
 
 app.run()
